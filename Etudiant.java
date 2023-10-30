@@ -13,6 +13,7 @@ public abstract class Etudiant {
         this.moyenne = moyenne;
     }
     public abstract void ajouterUneAbsence();
+
     public int getIdentifiant() {
         return identifiant;
     }
